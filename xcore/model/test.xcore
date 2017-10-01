@@ -1,0 +1,3 @@
+@GenModel(editDirectory="/xcore.provider/src-gen")
+package xcore
+class Test {}

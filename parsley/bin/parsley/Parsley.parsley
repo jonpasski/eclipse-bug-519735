@@ -1,0 +1,8 @@
+import org.eclipse.emf.common.notify.AdapterFactory
+import xcore.provider.XcoreItemProviderAdapterFactory
+
+module parsley {
+	bindings {
+		type AdapterFactory -> XcoreItemProviderAdapterFactory
+	}
+}
